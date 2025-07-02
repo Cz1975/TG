@@ -1,0 +1,19 @@
+{
+    "buy_amount_usdc": 0.5,
+    "slippage": 0.5,
+    "check_interval": 30,
+    "sell_strategy": [
+        {
+            "percentage": 50,
+            "target_multiplier": 1.1
+        },
+        {
+            "percentage": 25,
+            "target_multiplier": 10
+        },
+        {
+            "percentage": 25,
+            "target_multiplier": 50
+        }
+    ]
+}
